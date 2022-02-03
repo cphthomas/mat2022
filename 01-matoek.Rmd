@@ -1,0 +1,37 @@
+# Indledning
+
+```{r Fraktil-tabel,echo=FALSE,warning=FALSE,include=FALSE}
+#pacman autoload evt. manglende pakker
+if (!require("pacman")) install.packages("pacman")
+pacman::p_load(timeDate, DT,plotly,exams,e1071,WriteXLS,maps,rdrop2,knitr,ggplot2,openxlsx,quantmod) #load various packages
+
+```
+
+
+Noterne her omhandler matematik, man som økonom vil få brug for under sit studie. Der findes en del bøger og videoer, der kan være til yderligere hjælp.  
+
+
+
+Man gratis hente Troels Troelsen's bog Grundlæggende Matematik for økonomer og andre matematik og statistikbøger på bookboon <a href="http://bookboon.com/dk/grundlaeggende-matematik-for-oekonomer-ebook#download" target="_blank">klik her.</a>  
+
+
+Jeg har selv lavet nogle videoer screencasts om diverse emner indenfor matematik og statistik <a href="https://www.youtube.com/ThomasPetersenMat" target="_blank"> klik her.</a>  
+
+
+
+Der er en matematik kanal på youtube, med mange gode videoer fra ingeniøren <a href="https://www.youtube.com/user/matematikkanalen" target="_blank"> klik her.</a>  
+
+
+Fri viden har en god hjemmeside, med mange danske gratis matematikvideoer <a href="http://www.frividen.dk/" target="_blank"> klik her.</a>  
+
+Jeg også anbefale Kahn Akademy's matematikvideoer, disse videoer er på engelsk <a href="https://www.youtube.com/user/khanacademy" target="_blank"> klik her.</a>  
+
+
+Ofte vil de man kunne finde gode videoer på engelsk på Youtube om de lidt sværere emner.  
+
+Jeg kan anbefale at man benytter f.eks. https://www.wolframalpha.com som facitliste, når man løser opgaver. Jeg har indsat en lille regnemaskine fra Wolfram man kan benytte som lommeregner. Man kan også gå direkte til siden <a href="https://www.wolframalpha.com" target="_blank"> klik her.</a>  
+<br>
+<script 
+id="WolframAlphaScript" src="//www.wolframalpha.com/input/embed/?type=largeannot" type="text/javascript">
+</script>
+<br>
